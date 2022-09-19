@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
                     </div>
                 </section>
             </main>
-            <script src="https://kit.fontawesome.com/a5c1628c0a.js" crossorigin="anonymous"></script>
+            <Script src="https://kit.fontawesome.com/a5c1628c0a.js" crossorigin="anonymous"></Script>
         </div>
     )
 }
