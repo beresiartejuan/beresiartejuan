@@ -15,8 +15,8 @@ export default function Home() {
             </nav>
             <header className={styles.header}>
                 <div className={styles.placard}>
-                    <h2>Hi! I'm Juan Beresiarte.</h2>
-                    <span>I'm a full stack developer with Javascript and Php.</span>
+                    <h2>Hi! I am Juan Beresiarte.</h2>
+                    <span>I am a full stack developer with Javascript and Php.</span>
                 </div>
                 <div className={styles.avion}>
                     <i className="fa-regular fa-paper-plane"></i>
