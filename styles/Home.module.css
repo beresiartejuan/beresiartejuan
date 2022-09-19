@@ -1,0 +1,102 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  margin: 5vh 0;
+  width: 100%;
+  min-width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.placard {
+  padding-left: 12vw;
+}
+
+.header h2 {
+  font-family: 'Roboto Slap';
+  font-weight: 700;
+  font-size: 4.3em;
+  margin: 0;
+  padding: 0;
+  color: rgb(220,220,220);
+}
+
+.placard span {
+  margin-top: .3em;
+  padding: 0 .2em;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: rgba(235, 235, 24, 0.5);
+}
+
+.header .avion {
+  margin-right: 20vw;
+}
+
+.header svg {
+  font-size: 7vw;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 6vh;
+}
+
+.more svg {
+  font-size: 2em;
+  animation: bouncing 1.4s infinite;
+}
+
+.collection {
+  margin: 0;
+  padding: 0;
+}
+
+.collection h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  min-width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+}
+
+.skill {
+  background-color: aqua;
+  display: inline-block;
+  width: 10vw;
+}
+
+@keyframes bouncing {
+  to {
+    font-size: 2em;
+  }
+
+  50%{
+    font-size: 2.4em;
+  }
+
+  from{
+    font-size: 2em;
+  }
+}
