@@ -4,11 +4,6 @@
 
 Me encanta trabajar en proyectos desafiantes y siempre busco aprender y mejorar mis habilidades como desarrollador. He trabajado en proyectos de desarrollo freelance y actualmente estoy reformando un [blog](https://www.beresiarte.blog) que dejé abandonado por unos meses.
 
-Como desarrollador, estoy comprometido a brindar soluciones innovadoras y creativas a través de mi trabajo. Me apasiona la tecnología y estoy emocionado de seguir construyendo y compartiendo mi conocimiento en el mundo de la programación.
-
-Si estás buscando un desarrollador con experiencia y habilidades en múltiples áreas, no dudes en contactarme. Estoy emocionado de colaborar en nuevos proyectos y desafíos emocionantes. ¡Gracias por visitar mi perfil!
-
-
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/beresiartejuan) 
 
