@@ -4,8 +4,6 @@
 
 Me encanta trabajar en proyectos desafiantes y siempre busco aprender y mejorar mis habilidades como desarrollador. He trabajado en proyectos de desarrollo freelance y actualmente tengo un [blog](https://www.beresiarte.blog) en el cual hablo sobre tecnologías/herramientas relacionadas con Javascript y PHP.
 
-Como desarrollador, estoy comprometido a brindar soluciones innovadoras y creativas a través de mi trabajo. Me apasiona la tecnología y estoy emocionado de seguir construyendo y compartiendo mi conocimiento en el mundo de la programación.
-
 Si estás buscando un desarrollador con experiencia y habilidades en múltiples áreas, no dudes en contactarme. ¡Estoy emocionado de colaborar en nuevos proyectos y desafíos emocionantes!
 
 ## 🌐 Socials:
