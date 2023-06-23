@@ -2,7 +2,7 @@
 
 ¡Hola! Soy Juan Beresiarte, un desarrollador de software con experiencia en **JavaScript** (junto a **Typescript**) y **PHP**, actualmente estoy estudiando una tecnicatura en Programación. Tengo conocimientos solidos en **NextJS** y **Laravel**. Además, tengo conocimientos básicos en sistemas **Linux** y he trabajado con bases de datos relacionales como **MySql** y no relacionales como **Mongo**.
 
-Me encanta trabajar en proyectos desafiantes y siempre busco aprender y mejorar mis habilidades como desarrollador. He trabajado en proyectos de desarrollo freelance y actualmente tengo un [blog](https://www.beresiarte.blog) en el cual hablo de tecnologías/herramientas relacionadas con Javascript y PHP.
+Me encanta trabajar en proyectos desafiantes y siempre busco aprender y mejorar mis habilidades como desarrollador. He trabajado en proyectos de desarrollo freelance y actualmente tengo un [blog](https://www.beresiarte.blog) en el cual hablo sobre tecnologías/herramientas relacionadas con Javascript y PHP.
 
 Como desarrollador, estoy comprometido a brindar soluciones innovadoras y creativas a través de mi trabajo. Me apasiona la tecnología y estoy emocionado de seguir construyendo y compartiendo mi conocimiento en el mundo de la programación.
 
