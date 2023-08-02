@@ -7,7 +7,7 @@ Me encanta trabajar en proyectos desafiantes y siempre busco aprender y mejorar 
 Si estás buscando un desarrollador con experiencia y habilidades en múltiples áreas, no dudes en contactarme. ¡Estoy emocionado de colaborar en nuevos proyectos y desafíos emocionantes!
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/beresiartejuan) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/beresiartejuan) [![DEV](https://dev.to/beresiartejuan)]
 
 # 💻 Tech Stack:
 
