@@ -10,6 +10,7 @@ Si estás buscando un desarrollador con experiencia y habilidades en múltiples 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/beresiartejuan)
 
 [![DEV](https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png)](https://dev.to/beresiartejuan)
+[![DEV](https://cdn.worldvectorlogo.com/logos/devto.svg)](https://dev.to/beresiartejuan)
 
 # 💻 Tech Stack:
 
