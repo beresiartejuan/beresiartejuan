@@ -2,7 +2,7 @@
 
 ¡Hola! Soy Juan Beresiarte, un desarrollador web, actualmente estoy estudiando una tecnicatura en Programación. He trabajado en proyectos de desarrollo freelance y actualmente tengo un [blog](https://www.beresiarte.blog) en el cual hablo sobre tecnologías/herramientas relacionadas con Javascript y PHP.
 
-## 🌐 Contactame:
+## 🌐 Redes:
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/beresiartejuan) [![DEV](https://img.shields.io/badge/dev.to-grey?style=for-the-badge)](https://dev.to/beresiartejuan)
 
