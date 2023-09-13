@@ -2,6 +2,8 @@
 
 ¡Hola! Soy Juan Beresiarte, un desarrollador web, actualmente estoy estudiando una tecnicatura en Programación. Actualmente estoy trabajando en proyectos de desarrollo freelance y armando un [blog](https://www.beresiarte.blog) en el cual hablo sobre el desarrollo en javascript y php.
 
+<div style="text-align: center" aling="center">
+
 # 🌐 Redes:
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/beresiartejuan) [![DEV](https://img.shields.io/badge/dev.to-grey?style=for-the-badge)](https://dev.to/beresiartejuan)
@@ -19,6 +21,8 @@
 
 # 😂 Random Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+
+</div>
 
 # 🪙 You can help me by Donating
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/beresiarte) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/beresiarte)
