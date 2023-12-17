@@ -1,0 +1,82 @@
+.grid-icons {
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.grid-icons svg {
+    width: 20vw;
+    height: auto;
+}
+
+@media screen and (min-width: 700px) {
+    .grid-icons {
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        gap: 4vw;
+        flex-wrap: wrap;
+    }
+
+    .grid-icons svg {
+        width: 10vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .grid-icons {
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        flex-wrap: wrap;
+    }
+
+    .grid-icons svg {
+        width: 7vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .grid-icons {
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        flex-wrap: wrap;
+    }
+
+    .grid-icons svg {
+        width: 5vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .grid-icons {
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        flex-wrap: wrap;
+    }
+
+    .grid-icons svg {
+        width: 4vw;
+        height: auto;
+    }
+}
