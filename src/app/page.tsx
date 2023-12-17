@@ -14,7 +14,7 @@ export default function Home() {
         className="w-[60%] rounded-md"
       ></Image>
       <section className="flex flex-col gap-2">
-        <h2 className="text-3xl font-bold">Hi!👋</h2>
+        <h2 className="text-3xl font-bold">Hi! 👋</h2>
         <p>I'm a <span className="bg-yellow-800">Web Developer</span> and my name is <span className="bg-yellow-800">Juan Beresiarte</span>.</p>
       </section>
       <section className="flex flex-row flex-wrap gap-2">
