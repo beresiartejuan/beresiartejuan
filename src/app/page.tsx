@@ -13,7 +13,7 @@ import GitCard from "@/components/GitCard";
 export default function Home() {
 
   return (
-    <Center className="mt-[10vh] mb-[5vh] flex flex-col gap-8">
+    <Center className="mt-[20vh] mb-[5vh] flex flex-col gap-8">
       <Image
         src={"/profile.jpg"}
         alt="profile picture"
@@ -34,7 +34,7 @@ export default function Home() {
         </SecondaryButton>
       </section>
       <hr />
-      <section className="flex flex-row flex-wrap gap-2">
+      <section className="flex flex-row flex-wrap gap-2 mt-[30vh]">
         <Subtitle>About me</Subtitle>
         <p>Web developer with experience in <span className="bg-yellow-800">Javascript and PHP</span></p>
       </section>
