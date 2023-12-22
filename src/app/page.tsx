@@ -8,7 +8,8 @@ import { IoLogoGithub, IoLogoLinkedin, IoMdSearch } from "react-icons/io";
 import { FaLaravel, FaReact, FaSass, FaNode } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, SiMysql, SiMongodb, SiSymfony } from "react-icons/si";
 import Link from "next/link";
-import GitCard from "@/components/GitCard";
+import ProjectItem from "@/components/ProjectItem";
+import ProjectList from "@/components/List";
 
 export default function Home() {
 
@@ -34,7 +35,7 @@ export default function Home() {
         </SecondaryButton>
       </section>
       <hr />
-      <section className="flex flex-row flex-wrap gap-2 mt-[30vh]">
+      <section className="flex flex-row flex-wrap gap-2 mt-[32vh]">
         <Subtitle>About me</Subtitle>
         <p>Web developer with experience in <span className="bg-yellow-800">Javascript and PHP</span></p>
       </section>
@@ -42,13 +43,13 @@ export default function Home() {
         <SecondaryButton className="">📂 Do u wanna see my blog?</SecondaryButton>
         <Link href="/#projects"><span className="underline">Or see my projects?</span> 👈</Link>
       </section>
-      <section className="flex flex-col flex-wrap gap-7 mt-[5vh]">
+      <section className="flex flex-col flex-wrap gap-7 mt-[10vh]">
         <Subtitle>Tech Stack</Subtitle>
         <GridIcons>
           <FaLaravel className="text-red-800"></FaLaravel>
           <FaReact className="text-sky-800"></FaReact>
           <FaSass className="text-pink-800"></FaSass>
-          {/*<FaNode className="text-green-800"></FaNode>*/}
+          <FaNode className="text-green-800"></FaNode>
           <SiSymfony className="text-zinc-300"></SiSymfony>
           <SiTypescript className="text-blue-800"></SiTypescript>
           <SiNextdotjs className="text-white"></SiNextdotjs>
@@ -56,25 +57,28 @@ export default function Home() {
           <SiMongodb className="text-green-600"></SiMongodb>
         </GridIcons>
       </section>
-      <section className="flex flex-col flex-wrap gap-7 mt-[5vh]" id="projects">
+      <section className="flex flex-col flex-wrap mt-[10vh]">
         <Subtitle>Projects</Subtitle>
-        <div className="flex flex-col gap-3">
-          <GitCard
-            title="Typing-check"
-            description="Website to check your typing speed"
-            href="https://github.com/beresiartejuan/typing-check"
-          ><span className="block mt-2 text-xs">🟡 Javascript</span></GitCard>
-          <GitCard
-            title="Blank"
-            description="Simple and useful to-do list"
-            href="https://github.com/beresiartejuan/Blank"
-          ><span className="block mt-2 text-xs">🟡 Javascript</span></GitCard>
-          <GitCard
-            title="I love penguins"
-            description="A landing page about penguins"
-            href="https://github.com/beresiartejuan/ilovepenguins"
-          ><span className="block mt-2 text-xs">🔵 Php</span></GitCard>
-        </div>
+        <ProjectList>
+          <ProjectItem
+            name="Typing Check"
+            repo=""
+            deploy=""
+            pin="✨"
+          ></ProjectItem>
+          <ProjectItem
+            name="Blank"
+            repo=""
+            deploy=""
+            pin="✨"
+          ></ProjectItem>
+          <ProjectItem
+            name="I love penguins"
+            repo=""
+            deploy=""
+            pin="✨"
+          ></ProjectItem>
+        </ProjectList>
       </section>
     </Center>
   );
