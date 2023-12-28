@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 0;
 
+    max-width: 50vw;
+
     display: flex;
     flex-direction: row;
     gap: 5vw;
@@ -13,7 +15,7 @@
     height: auto;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 650px) {
     .grid-icons {
         margin: 0 auto;
         padding: 0;
@@ -59,12 +61,29 @@
     }
 
     .grid-icons svg {
-        width: 5vw;
+        width: 6vw;
         height: auto;
     }
 }
 
 @media screen and (min-width: 1300px) {
+    .grid-icons {
+        margin: 0 auto;
+        padding: 0;
+
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        flex-wrap: wrap;
+    }
+
+    .grid-icons svg {
+        width: 5vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1450px) {
     .grid-icons {
         margin: 0 auto;
         padding: 0;

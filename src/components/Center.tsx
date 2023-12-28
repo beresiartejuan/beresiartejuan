@@ -5,7 +5,7 @@ export default function Center({
     className?: string
 }) {
     return (
-        <div className={`px-8 max-w-lg mx-auto ${className}`}>
+        <div className={`px-8 mx-auto ${className}`}>
             {children}
         </div>
     );

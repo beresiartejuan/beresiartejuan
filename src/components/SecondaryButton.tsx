@@ -11,7 +11,7 @@ export default function SecondaryButton({
         <Link
             href={href ?? ""}
             target="_blank"
-            className="bg-zinc-600 px-4 py-2 rounded-md font-semibold flex flex-row text-center gap-2"
+            className={`bg-zinc-600 px-5 py-2 rounded-md font-semibold flex flex-row text-center ${className}`}
             {...props}
         >
             {children}
