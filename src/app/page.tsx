@@ -5,17 +5,18 @@ import SecondaryButton from "@/components/SecondaryButton";
 import GridIcons from "@/components/GridIcons";
 import Image from "next/image";
 import { IoLogoGithub, IoLogoLinkedin, IoMdSearch } from "react-icons/io";
-import { FaLaravel, FaReact, FaSass, FaNode } from "react-icons/fa";
-import { SiTypescript, SiNextdotjs, SiMysql, SiMongodb, SiSymfony } from "react-icons/si";
-import { FaArrowRightLong, FaPython } from "react-icons/fa6";
+import { FaLaravel, FaReact, FaSass, FaNode, FaHandPointLeft } from "react-icons/fa";
+import { SiTypescript, SiNextdotjs, SiMysql, SiMongodb, SiSymfony, SiNestjs, SiExpress } from "react-icons/si";
+import { FaArrowRightLong, FaPython, FaAngular } from "react-icons/fa6";
 import Link from "next/link";
 import ProjectItem from "@/components/ProjectItem";
 import ProjectList from "@/components/List";
+import Head from "next/head";
 
 export default function Home() {
 
   return (
-    <Center className="max-w-lg mt-[20vh] mb-[5vh] flex flex-col gap-[7vh]">
+    <Center className="max-w-lg mt-[20vh] mb-[15vh] flex flex-col gap-[7vh]">
 
       {/* HEADER */}
 
@@ -43,13 +44,11 @@ export default function Home() {
 
       {/* ABOUT */}
 
-      <section className="flex flex-col flex-wrap gap-2">
+      <section className="flex flex-col flex-wrap gap-5">
         <h2 className="text-[3rem] font-bold"># About me</h2>
         <p className="text-[1.1rem]">Web developer with experience in <span className="text-yellow-700">Javascript and PHP</span>, freelancer, writer and tea lover 🍵❤️</p>
-        <p className="text-[1.1rem] mt-4"><cite>"But after sunlit days, one thing stays the same, rises the moon" ~ Liana Flores</cite></p>
-        <div className="flex flex-col gap-3 mt-5">
-          <SecondaryButton className="max-w-fit gap-2" href="/blog"><span>📂</span><p>Do u wanna see my blog?</p></SecondaryButton>
-        </div>
+        <p className="text-[1.1rem]">Do u wanna see my <Link href={""} className="underline text-yellow-700">blog</Link>? 👈</p>
+        <p className="text-[1.1rem]"><cite>"But after sunlit days, one thing stays the same, rises the moon" ~ Liana Flores</cite></p>
       </section>
 
       {/* STACKS */}
@@ -57,16 +56,22 @@ export default function Home() {
       <section className="flex flex-col flex-wrap gap-7">
         <h2 className="text-[3rem] font-bold"># Tech Stack</h2>
         <GridIcons>
-          <FaLaravel className="text-red-800"></FaLaravel>
-          <FaReact className="text-sky-600"></FaReact>
-          <FaSass className="text-pink-800"></FaSass>
-          <FaNode className="text-green-800"></FaNode>
-          <SiSymfony className="text-zinc-300"></SiSymfony>
-          <SiTypescript className="text-blue-800"></SiTypescript>
-          <SiNextdotjs className="text-white"></SiNextdotjs>
-          <SiMysql className="text-blue-500"></SiMysql>
+          {/* Yes, Mern XD */}
           <SiMongodb className="text-green-600"></SiMongodb>
+          <SiExpress className="text-gray-300"></SiExpress>
+          <FaReact className="text-sky-600"></FaReact>
+          <FaNode className="text-green-800"></FaNode>
+
+          <FaAngular className="text-red-800"></FaAngular>
+          <SiNextdotjs className="text-white"></SiNextdotjs>
+          <FaLaravel className="text-rose-900"></FaLaravel>
+          <SiNestjs className="text-rose-700"></SiNestjs>
+
+          <FaSass className="text-pink-800"></FaSass>
+          <SiTypescript className="text-blue-800"></SiTypescript>
+          <SiMysql className="text-blue-500"></SiMysql>
           <FaPython className="text-sky-900"></FaPython>
+
         </GridIcons>
       </section>
 
@@ -79,19 +84,22 @@ export default function Home() {
             name="Typing Check"
             repo="https://github.com/beresiartejuan/typing-check"
             deploy="https://beresiartejuan.github.io/typing-check/"
-            pin={<FaArrowRightLong className="inline"></FaArrowRightLong>}
+            description="Prueba de mecanogrfía online que muestra los caracteres por segundo que eres capaz de hacer."
+            pin={"🟡 Javascript"}
           ></ProjectItem>
           <ProjectItem
             name="Blank"
             repo="https://github.com/beresiartejuan/Blank"
             deploy="https://blank-tasks-list.vercel.app/"
-            pin={<FaArrowRightLong className="inline"></FaArrowRightLong>}
+            description="Lista de tareas minimalista."
+            pin={"🟡 Javascript"}
           ></ProjectItem>
           <ProjectItem
-            name="I love penguins"
+            name="ilovepenguins"
             repo="https://github.com/beresiartejuan/ilovepenguins"
             deploy="https://ilovepenguin.000webhostapp.com/"
-            pin={<FaArrowRightLong className="inline"></FaArrowRightLong>}
+            pin={"🔵 Php"}
+            description="Una landing page con tematica de pingüinos."
           ></ProjectItem>
         </ProjectList>
       </section>
