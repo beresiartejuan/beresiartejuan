@@ -1,18 +1,18 @@
 import Link from "next/link"
 
 export default function ProjectItem({
-    name, repo, deploy, pin, description
+    repo, pin, description
 }: {
-    name: string,
     repo: string,
-    deploy: string,
-    description?: string,
-    pin: string | React.ReactNode
+    description: string,
+    pin?: string | React.ReactNode
 }) {
+    const repo_base = "https://github.com";
+
     return (
-        <li className="flex flex-col gap-3 border-solid border-2 border-gray-500 p-5 rounded-md">
-            <span className="font-semibold text-blue-500">beresiartejuan/{name}</span>
-            <p className="text-gray-500">{description}</p>
+        <li className="flex flex-col gap-3 border-solid border-2 border-gray-600 p-5 rounded-md">
+            <Link href={`${repo_base}/${repo}`} target="_blank" className="font-semibold text-blue-500">{repo}</Link>
+            <p className="text-gray-400">{description}</p>
             {pin}
         </li>
     )

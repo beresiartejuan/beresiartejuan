@@ -81,23 +81,17 @@ export default function Home() {
         <h2 className="text-[3rem] font-bold"># Projects</h2>
         <ProjectList>
           <ProjectItem
-            name="Typing Check"
-            repo="https://github.com/beresiartejuan/typing-check"
-            deploy="https://beresiartejuan.github.io/typing-check/"
+            repo="beresiartejuan/typing-check"
             description="Prueba de mecanogrfía online que muestra los caracteres por segundo que eres capaz de hacer."
             pin={"🟡 Javascript"}
           ></ProjectItem>
           <ProjectItem
-            name="Blank"
-            repo="https://github.com/beresiartejuan/Blank"
-            deploy="https://blank-tasks-list.vercel.app/"
+            repo="beresiartejuan/Blank"
             description="Lista de tareas minimalista."
             pin={"🟡 Javascript"}
           ></ProjectItem>
           <ProjectItem
-            name="ilovepenguins"
-            repo="https://github.com/beresiartejuan/ilovepenguins"
-            deploy="https://ilovepenguin.000webhostapp.com/"
+            repo="beresiartejuan/ilovepenguins"
             pin={"🔵 Php"}
             description="Una landing page con tematica de pingüinos."
           ></ProjectItem>
