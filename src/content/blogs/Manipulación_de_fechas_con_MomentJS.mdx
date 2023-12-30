@@ -1,0 +1,148 @@
+---
+title: Manipulación de fechas y horas con Moment.js
+---
+
+# Manipulación de fechas y horas con Moment.js
+
+## Introducción
+
+Moment.js es una librería de JavaScript que nos ayuda a manejar fechas y horas de forma sencilla y eficiente. Para empezar a usar Moment.js, simplemente debemos incluir la librería en nuestro proyecto. A continuación, podemos crear una fecha utilizando el constructor "moment", como se muestra a continuación:
+
+```javascript
+const fecha = moment();
+```
+
+Este código crea una fecha con la hora actual. Podemos personalizar esta fecha especificando una fecha y hora específicas como argumentos del constructor "moment", como se muestra a continuación:
+
+```javascript
+const fechaPersonalizada = moment("2022-01-01T12:00:00");
+```
+
+Este código crea una fecha con la fecha y hora especificadas en formato ISO 8601.
+
+En resumen, Moment.js es una librería útil y fácil de usar para manejar fechas y horas en JavaScript. En la próxima sección, veremos cómo manipular estas fechas con Moment.js.
+
+## Instalación
+
+Para utilizar [Moment.js](https://momentjs.com/) en tu proyecto de JavaScript, necesitas descargar e incluir la librería en tu código. Puedes hacerlo mediante la descarga desde la página oficial de Moment.js o mediante la instalación a través de un gestor de paquetes como npm.
+
+Para incluir Moment.js en tu proyecto, simplemente agrega el siguiente código en la sección de head de tu archivo HTML:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
+
+Alternativamente, si estás utilizando npm, puedes instalar Moment.js mediante el siguiente comando en tu terminal:
+
+```bash
+npm install moment
+```
+
+Una vez que hayas descargado o instalado Moment.js, puedes empezar a utilizar sus funciones para manipular fechas y horas en tu proyecto de JavaScript.
+
+## Creación de fechas y horas
+
+Una de las tareas más comunes al trabajar con fechas y horas es crearlas. Moment.js ofrece varias formas de crear fechas y horas para satisfacer las necesidades de los programadores.
+
+### Creación básica
+
+La forma más sencilla de crear una fecha y hora en Moment.js es utilizando el constructor **moment()**. Si no se proporcionan argumentos al constructor, se crea una fecha y hora con la fecha y hora actual del sistema:
+
+```javascript
+const ahora = moment();
+console.log(ahora); // Resultado: fecha y hora actual del sistema
+```
+
+También puedes crear una fecha y hora específica proporcionando los argumentos en el orden de año, mes, día, hora, minutos y segundos:
+
+```javascript
+const fecha = moment([2023, 4, 1, 14, 30, 0]);
+console.log(fecha); // Resultado: 2023-05-01T14:30:00.000Z
+```
+
+### Creación desde una cadena de texto
+
+Moment.js también permite crear fechas y horas desde una cadena de texto utilizando el método **moment(string)**:
+
+```javascript
+const fechaString = moment("2023-05-01 14:30:00");
+console.log(fechaString); // Resultado: 2023-05-01T14:30:00.000Z
+```
+
+### Creación desde un objeto de fecha
+
+Si ya tienes un objeto de fecha nativo en JavaScript, Moment.js puede convertirlo en un objeto de fecha Moment utilizando el método **moment(date)**:
+
+```javascript
+const fechaNat = new Date("2023-05-01T14:30:00.000Z");
+const fechaMoment = moment(fechaNat);
+console.log(fechaMoment); // Resultado: 2023-05-01T14:30:00.000Z
+```
+
+Moment.js también puede crear fechas y horas desde otros objetos, como **moment**, **string** o **date**, utilizando los métodos **moment.clone()**, **moment.parseZone()** y **moment.utc()**.
+
+Con estas opciones de creación, puedes crear fechas y horas en Moment.js de la forma que mejor se adapte a tus necesidades.
+
+## Formateo de fechas y horas
+
+Una de las principales tareas al trabajar con fechas y horas es formatearlas de la manera en que deseamos mostrarlas a los usuarios. Moment.js ofrece una amplia gama de opciones de formato de fecha y hora para adaptarse a cualquier necesidad.
+
+El método **format()** es el método principal para formatear fechas y horas en Moment.js. Toma una cadena de formato como argumento y devuelve la fecha y hora formateadas según esa cadena. La cadena de formato se compone de una serie de caracteres que representan diferentes partes de la fecha y la hora, como el año, el mes, el día, la hora, el minuto y el segundo.
+
+Por ejemplo, si deseamos formatear la fecha actual en el formato "DD/MM/YYYY", podemos usar el siguiente código:
+
+```javascript
+const fechaActual = moment();
+const fechaFormateada = fechaActual.format("DD/MM/YYYY");
+console.log(fechaFormateada); // resultado: "03/05/2023"
+```
+
+Aquí, **moment()** crea una instancia de Moment.js para la fecha y hora actual, que luego se formatea utilizando el método **format()** y la cadena de formato **"DD/MM/YYYY"**. La cadena de formato especifica que se deben mostrar el día, el mes y el año en ese orden, con barras diagonales como separadores.
+
+También podemos formatear las horas y los minutos en una fecha y hora. Por ejemplo, si deseamos formatear la hora actual en el formato "HH:mm:ss", podemos usar el siguiente código:
+
+```javascript
+const horaActual = moment();
+const horaFormateada = horaActual.format("HH:mm:ss");
+console.log(horaFormateada); // resultado: "15:26:42"
+```
+
+Aquí, **moment()** crea una instancia de Moment.js para la hora actual, que luego se formatea utilizando el método **format()** y la cadena de formato **"HH:mm:ss"**. La cadena de formato especifica que se deben mostrar la hora, los minutos y los segundos en ese orden, con dos puntos como separadores.
+
+## Conversión entre zonas horarias
+
+En algunas ocasiones, es posible que necesitemos trabajar con fechas y horas en diferentes zonas horarias. Moment.js nos proporciona varias funciones para facilitar la conversión entre diferentes zonas horarias.
+
+### Conversión desde la hora local
+
+Para convertir una fecha y hora desde la hora local a otra zona horaria, podemos utilizar la función **moment.tz()**. Esta función toma como primer argumento la fecha y hora original, y como segundo argumento la zona horaria a la que se quiere convertir.
+
+```javascript
+// Crear un objeto Moment.js a partir de la hora local
+let fechaHora = moment();
+
+// Convertir la hora local a la zona horaria de Nueva York
+let fechaHoraNY = moment.tz(fechaHora, "America/New_York");
+
+console.log(fechaHora.format()); // "2023-05-03T20:25:34+02:00"
+console.log(fechaHoraNY.format()); // "2023-05-03T14:25:34-04:00"
+```
+
+En este ejemplo, creamos un objeto Moment.js a partir de la hora local, y luego lo convertimos a la zona horaria de Nueva York utilizando la función **moment.tz()**. El resultado es un objeto Moment.js con la fecha y hora convertida a la nueva zona horaria.
+
+### Conversión a la hora local
+
+Para convertir una fecha y hora desde una zona horaria específica a la hora local, podemos utilizar la función **moment.tz()**, pero esta vez con la zona horaria original como segundo argumento.
+
+```javascript
+// Crear un objeto Moment.js a partir de la hora en Nueva York
+let fechaHoraNY = moment.tz("2023-05-03T14:25:34-04:00", "America/New_York");
+
+// Convertir la hora en Nueva York a la hora local
+let fechaHoraLocal = fechaHoraNY.clone().tz(moment.tz.guess());
+
+console.log(fechaHoraNY.format()); // "2023-05-03T14:25:34-04:00"
+console.log(fechaHoraLocal.format()); // "2023-05-03T20:25:34+02:00"
+```
+
+En este ejemplo, creamos un objeto Moment.js a partir de una fecha y hora en la zona horaria de Nueva York, y luego lo convertimos a la hora local utilizando la función **moment.tz()** de nuevo, pero esta vez con **moment.tz.guess()** como segundo argumento. **moment.tz.guess()** devuelve automáticamente la zona horaria del usuario, lo que nos permite convertir la fecha y hora a la hora local.

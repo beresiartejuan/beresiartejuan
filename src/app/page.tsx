@@ -47,7 +47,7 @@ export default function Home() {
       <section className="flex flex-col flex-wrap gap-5">
         <h2 className="text-[3rem] font-bold"># About me</h2>
         <p className="text-[1.1rem]">Web developer with experience in <span className="text-yellow-700">Javascript and PHP</span>, freelancer, writer and tea lover 🍵❤️</p>
-        <p className="text-[1.1rem]">Do u wanna see my <Link href={""} className="underline text-yellow-700">blog</Link>? 👈</p>
+        <p className="text-[1.1rem]">Do u wanna see my <Link href="/blog" className="underline text-yellow-700">blog</Link>? 👈</p>
         <p className="text-[1.1rem]"><cite>"But after sunlit days, one thing stays the same, rises the moon" ~ Liana Flores</cite></p>
       </section>
 
