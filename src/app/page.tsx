@@ -4,14 +4,12 @@ import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
 import GridIcons from "@/components/GridIcons";
 import Image from "next/image";
-import { IoLogoGithub, IoLogoLinkedin, IoMdSearch } from "react-icons/io";
-import { FaLaravel, FaReact, FaSass, FaNode, FaHandPointLeft } from "react-icons/fa";
-import { SiTypescript, SiNextdotjs, SiMysql, SiMongodb, SiSymfony, SiNestjs, SiExpress } from "react-icons/si";
-import { FaArrowRightLong, FaPython, FaAngular } from "react-icons/fa6";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { FaLaravel, FaReact, FaSass } from "react-icons/fa";
+import { SiTypescript, SiNextdotjs, SiMongodb, SiNestjs, SiExpress } from "react-icons/si";
 import Link from "next/link";
 import ProjectItem from "@/components/ProjectItem";
 import ProjectList from "@/components/List";
-import Head from "next/head";
 
 export default function Home() {
 
@@ -56,21 +54,17 @@ export default function Home() {
       <section className="flex flex-col flex-wrap gap-7">
         <h2 className="text-[3rem] font-bold"># Tech Stack</h2>
         <GridIcons>
-          {/* Yes, Mern XD */}
+
           <SiMongodb className="text-green-600"></SiMongodb>
           <SiExpress className="text-gray-300"></SiExpress>
           <FaReact className="text-sky-600"></FaReact>
-          <FaNode className="text-green-800"></FaNode>
 
-          <FaAngular className="text-red-800"></FaAngular>
           <SiNextdotjs className="text-white"></SiNextdotjs>
           <FaLaravel className="text-rose-900"></FaLaravel>
           <SiNestjs className="text-rose-700"></SiNestjs>
 
           <FaSass className="text-pink-800"></FaSass>
           <SiTypescript className="text-blue-800"></SiTypescript>
-          <SiMysql className="text-blue-500"></SiMysql>
-          <FaPython className="text-sky-900"></FaPython>
 
         </GridIcons>
       </section>
