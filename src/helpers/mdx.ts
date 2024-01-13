@@ -10,9 +10,9 @@ export function getAllSlugs() {
 
 }
 
-export function getAllFiles({ limit }: { limit?: number }): string[] {
+export function getAllFiles(): string[] {
 
-    const slugs = getAllSlugs().slice(0, limit);
+    const slugs = getAllSlugs();
 
     return slugs.map(slug => {
         return readFileSync(slug, { encoding: "utf-8" })
@@ -20,12 +20,27 @@ export function getAllFiles({ limit }: { limit?: number }): string[] {
 
 }
 
-export function getAllBlogs({ limit }: { limit?: number }) {
+export type FiltersBlogSearch = {
+    limit: number | undefined,
+    filter: {
+        byDate: boolean
+    }
+};
 
-    const files = getAllFiles({ limit });
+export function getAllBlogs({
+    limit, filter
+}: FiltersBlogSearch) {
 
-    return files.map(file => {
-        return matter(file);
-    })
+    const files = getAllFiles();
+
+    const parsed_files = files.map(file => matter(file));
+
+    if(filter.byDate){
+        parsed_files.sort((blogA, blogB) => {
+            return new Date(blogA.data.date).getTime() - new Date(blogB.data.date).getTime();
+        });
+    }
+
+    return parsed_files.slice(0, limit);
 
 }
