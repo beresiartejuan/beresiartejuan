@@ -67,6 +67,9 @@ export default function Blog() {
                 <Article decorator="-" title="ILoveImg" href="https://www.iloveimg.com/es">
                     <cite className="ml-2 text-sm">Editor simple de imagenes online</cite>
                 </Article>
+                <Article decorator="-" title="MDN Web Docs" href="https://developer.mozilla.org/en-US/">
+                    <cite className="ml-2 text-sm">Documentación Web sobre Html, Css y Javascript</cite>
+                </Article>
                 <Article decorator="-" title="Dev Comunity" href="https://dev.to/">
                     <cite className="ml-2 text-sm">Comunidad de desarrolladores</cite>
                 </Article>
