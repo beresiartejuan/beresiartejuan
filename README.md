@@ -2,7 +2,7 @@
 
 # 💫 Sobre mí:
 
-¡Hola! Soy Juan Beresiarte, un desarrollador web, actualmente estoy estudiando una tecnicatura en Programación. Actualmente estoy trabajando en proyectos de desarrollo freelance y en un [blog](https://beresiarte.vercel.app) en el cual hablo sobre el desarrollo en javascript y php.
+¡Hola! Soy Juan Beresiarte, un desarrollador web, estudiante en una tecnicatura en Programación. Actualmente estoy trabajando en proyectos de desarrollo freelance y en un [blog](https://beresiarte.vercel.app) en el cual hablo sobre el desarrollo en javascript y php.
 
 # 💻 Tech Stack:
 <div align="center">
