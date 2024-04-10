@@ -4,6 +4,8 @@
 
 ¡Hola! Soy Juan Beresiarte, un desarrollador web, estudiante en una tecnicatura en Programación. Actualmente estoy trabajando en proyectos de desarrollo freelance y en un [blog](https://beresiarte.vercel.app) en el cual hablo sobre el desarrollo en javascript y php.
 
+[![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/beresiartejuan) [![DEV](https://img.shields.io/badge/dev.to-grey?style=for-the-badge)](https://dev.to/beresiartejuan) [![Gmail](https://img.shields.io/badge/gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juanberesiarte@gmail.com)
+
 # 💻 Tech Stack:
 <div align="center">
  
@@ -14,14 +16,6 @@
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=beresiartejuan&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-</div>
-
-# 🌐 Redes:
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/juanberesiarte) [![Twitter](https://img.shields.io/badge/twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/beresiartejuan) [![DEV](https://img.shields.io/badge/dev.to-grey?style=for-the-badge)](https://dev.to/beresiartejuan) [![Gmail](https://img.shields.io/badge/gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juanberesiarte@gmail.com)
 
 </div>
 <!--
