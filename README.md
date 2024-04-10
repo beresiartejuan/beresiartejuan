@@ -18,13 +18,5 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=beresiartejuan&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 </div>
-<!--
-# 😂 Random Meme
-<img src='https://randommeme-five.vercel.app/' align="center" style="height: 400px;"/>
 
-# 🪙 You can help me by Donating
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/beresiarte) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/beresiarte)
-
- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
- <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
