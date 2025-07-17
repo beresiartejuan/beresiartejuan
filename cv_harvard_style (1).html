@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Beresiarte - Desarrollador Fullstack</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2px;
+            margin-bottom: 15px;
+        }
+
+        .job, .education-item, .project {
+            margin-bottom: 15px;
+        }
+
+        .job-header, .education-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+
+        .job-title, .degree, .project-title {
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .company, .institution {
+            font-style: italic;
+            font-size: 13px;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .description {
+            font-size: 12px;
+            margin-left: 0;
+            margin-top: 5px;
+        }
+
+        .description li {
+            margin-bottom: 3px;
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            font-size: 12px;
+        }
+
+        .skills-category {
+            margin-bottom: 10px;
+        }
+
+        .skills-category-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .achievement {
+            font-style: italic;
+            color: #555;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 11px;
+            }
+            
+            .name {
+                font-size: 20px;
+            }
+            
+            .section-title {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Juan Beresiarte</div>
+        <div class="title">Desarrollador Fullstack</div>
+        <div class="contact-info">
+            <a href="mailto:juanberesiarte@gmail.com">juanberesiarte@gmail.com</a> | 
+            <a href="https://linkedin.com/in/juanberesiarte">linkedin.com/in/juanberesiarte</a> | 
+            <a href="https://github.com/beresiartejuan">github.com/beresiartejuan</a> | 
+            <a href="https://beresiarte.xyz">beresiarte.xyz</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Perfil Profesional</div>
+        <p style="font-size: 12px;">Desarrollador fullstack con enfoque autodidacta y pasión por crear aplicaciones eficientes y mantenibles. Especializado en arquitectura de software y optimización de rendimiento. Experiencia en liderazgo técnico y trabajo colaborativo, con fuerte orientación hacia la resolución de problemas complejos y la creación de soluciones útiles.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Experiencia Profesional</div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Cofundador & Desarrollador Fullstack</div>
+                    <div class="company">CROBF</div>
+                </div>
+                <div class="date">2024 - Presente</div>
+            </div>
+            <ul class="description">
+                <li>Lideré decisiones de estrategia tecnológica y arquitectura de software</li>
+                <li>Desarrollé CROBF Hub (plataforma de gestión de proyectos) y HexaDevs (academia virtual)</li>
+                <li>Implementé metodologías ágiles y supervisé equipos de desarrollo</li>
+                <li>Trabajé con JavaScript, Astro y tecnologías modernas</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Desarrollador Fullstack</div>
+                    <div class="company">Única - Tienda de Ropa</div>
+                </div>
+                <div class="date">2025</div>
+            </div>
+            <ul class="description">
+                <li>Desarrollé aplicación completa para control de stock y punto de venta</li>
+                <li>Implementé sistema de caché híbrido (cliente y servidor)</li>
+                <li>Logré reducir consultas a base de datos en un 10%</li>
+                <li>Mejoré organización interna y reduje costos operativos</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Desarrollador Fullstack</div>
+                    <div class="company">Automotores Atuel</div>
+                </div>
+                <div class="date">2024 - 2025</div>
+            </div>
+            <ul class="description">
+                <li>Desarrollé sitio web en Astro como vidriera virtual para concesionaria</li>
+                <li>Implementé sistema de carga de vehículos con formulario para fotos y detalles</li>
+                <li>Creé funcionalidad para gestión de inventario con galería de imágenes</li>
+                <li>Diseñé interfaz autoadministrable para equipo de ventas sin conocimientos técnicos</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Tutor de Programación</div>
+                    <div class="company">Clases Particulares</div>
+                </div>
+                <div class="date">2024 - 2025</div>
+            </div>
+            <ul class="description">
+                <li>Enseñé desarrollo web desde fundamentos hasta temas avanzados</li>
+                <li>Adapté contenidos según perfil y objetivos del estudiante</li>
+                <li>Fortalecí habilidades de comunicación técnica y pedagógica</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Desarrollador Freelance</div>
+                    <div class="company">Fiverr</div>
+                </div>
+                <div class="date">2023 - 2024</div>
+            </div>
+            <ul class="description">
+                <li>Desarrollé proyectos con JavaScript, React y herramientas modernas</li>
+                <li>Colaboré en landing page para consultora ambiental con equipo de desarrolladores</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Educación</div>
+        
+        <div class="education-item">
+            <div class="education-header">
+                <div>
+                    <div class="degree">Tecnicatura en Programación</div>
+                    <div class="institution">UTN San Rafael</div>
+                </div>
+                <div class="date">2023 - 2025</div>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-header">
+                <div>
+                    <div class="degree">Bachillerato en Ciencias Humanísticas</div>
+                    <div class="institution">Secundaria San Antonio</div>
+                </div>
+                <div class="date">2016 - 2021</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Proyectos Destacados</div>
+        
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">bunny.js - Librería JavaScript</div>
+                <div class="date">2024</div>
+            </div>
+            <p class="description">Librería liviana para manipulación del DOM y animaciones, enfocada en rendimiento y tamaño reducido.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">Typing Check - Aplicación de Mecanografía</div>
+                <div class="date">2023</div>
+            </div>
+            <p class="description">App web para mejorar velocidad de tipeo con estadísticas avanzadas y textos literarios en español.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-header">
+                <div class="project-title">Just - Editor de Texto Minimalista</div>
+                <div class="date">2024</div>
+            </div>
+            <p class="description">Editor sin distracciones con exportación a PDF y Markdown, diseñado para escritura enfocada.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Habilidades Técnicas</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Lenguajes:</div>
+                    <div>JavaScript, TypeScript, PHP, Python, Bash</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Frameworks:</div>
+                    <div>React, Astro, Node.js, Express, Laravel, Next.js</div>
+                </div>
+            </div>
+            <div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Bases de Datos:</div>
+                    <div>PostgreSQL, Redis, Turso, MySQL</div>
+                </div>
+                <div class="skills-category">
+                    <div class="skills-category-title">Herramientas:</div>
+                    <div>Git, Linux, NGINX, Tailwind CSS, Sass</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Competencias Clave</div>
+        <p style="font-size: 12px;">
+            <strong>Arquitectura de Software:</strong> Separación por capas, principio de responsabilidad única, diseño escalable<br>
+            <strong>Optimización:</strong> Sistemas de caché, reducción de consultas a BD, mejora de rendimiento<br>
+            <strong>Liderazgo Técnico:</strong> Supervisión de equipos, metodologías ágiles, toma de decisiones estratégicas<br>
+            <strong>Soft Skills:</strong> Comunicación técnica, trabajo en equipo, resolución de problemas, adaptabilidad
+        </p>
+    </div>
+</body>
+</html>
