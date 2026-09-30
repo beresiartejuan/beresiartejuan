@@ -1,7 +1,5 @@
 # 💫 Sobre mí:
 
-¡Hola! Soy Juan Beresiarte, un desarrollador web, estudiante en una tecnicatura en Programación. Actualmente estoy trabajando en proyectos de desarrollo freelance y en un [blog](https://blog.beresiarte.xyz) en el cual hablo sobre el desarrollo en javascript y php.
-
 Soy Juan Beresiarte, desarrollador web enfocado en TypeScript. Construyo apps con Next.js y Astro, backends livianos y bases con Drizzle/Turso. Hago freelance y escribo en mi [blog](https://blog.beresiarte.xyz) sobre tecnología.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/beresiartejuan) [![DEV](https://img.shields.io/badge/dev.to-grey?style=for-the-badge)](https://dev.to/beresiartejuan) [![Gmail](https://img.shields.io/badge/gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juanberesiarte@gmail.com)
